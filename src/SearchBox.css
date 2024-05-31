@@ -13,7 +13,8 @@ body {
 
 .searchbox {
     background : rgba(255,255,255,0.2);
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height : 20vh;
     flex-direction: column;
     padding : 0.5rem;
@@ -28,4 +29,20 @@ body {
     margin-bottom: 5px;
     margin-top: 3px;
     color : rgba(0,0,0,1);
+}
+
+@media (orientation : portrait) {
+    .searchbox {
+    background : rgba(255,255,255,0.2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height : 20vh;
+    flex-direction: column;
+    padding : 0.5rem;
+    width : 80%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }

@@ -1,0 +1,18 @@
+h3 {
+    margin : 3px 0 3px 0;
+}
+
+.InfoBox {
+    text-align: center;
+    background : rgba(255,255,255,0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -59,6 +59,7 @@ export default function SearchBox({updateInfo}) {
         </form>
         {err && <p style={{color : "red"}}>No such place exist!</p>}
         </div>
+        
         </>
     );
 }
